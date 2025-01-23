@@ -1,0 +1,28 @@
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .plan {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  .popular {
+    background-color: #f7f7f7;
+    border: 2px solid orange;
+  }
+  .plan button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .plan button:hover {
+    background: orange;
+  }

@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 100vh; /* Full height of the viewport */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Main gradient background */
+    position: relative; /* Positioning for the overlay */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+.overlay {
+    position: absolute; /* Positioning for the overlay */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Translucent black overlay */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    flex-direction: column; /* Stack text vertically */
+}
+
+h1 {
+    font-size: 3em; /* Header font size */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-size: 1.5em; /* Paragraph font size */
+    margin: 10px 0 0; /* Margin for spacing */
+}

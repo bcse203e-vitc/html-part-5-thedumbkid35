@@ -1,0 +1,12 @@
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 10%;
+    margin: 5%;
+    background: lightblue;
+    border: 5px solid #333;
+    transition: border 0.3s;
+  }
+  .box:hover {
+    border: 10px solid orange;
+  }
